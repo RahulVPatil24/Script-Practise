@@ -6,7 +6,7 @@ port = 445
 
 def portscanner(port):
     if sock.connect_ex((host,port)):
-            print "port %d is closed" % (port)
+            print ("port %d is closed") % (port)
     else:
-            print "port %d is open" % (port)
+            print ("port %d is open") % (port)
 portscanner(port)
