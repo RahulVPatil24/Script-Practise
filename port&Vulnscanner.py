@@ -1,8 +1,8 @@
 import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-host = "192.168.1.2"
-port = 445
+host = (" ") #Enter Targert Ip
+port =  #Enter Port No
 
 def portscanner(port):
     if sock.connect_ex((host,port)):
